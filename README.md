@@ -168,7 +168,7 @@ python test.py
 | :--- | :--- | :--- | :---: | :---: |
 | **Logistic Regression** | TF-IDF (1-2 ngrams) | $C=1.0$, L2 penalty | **0.871** | ~1 ms |
 | **Random Forest** | TF-IDF (1-2 ngrams) | 200 estimators, depth=25 | 0.854 | ~12 ms |
-| **Multinomial Naive Bayes** | CountVectorizer | $lpha=0.5$ | 0.832 | <1 ms |
+| **Multinomial Naive Bayes** | CountVectorizer | $Alpha=0.5$ | 0.832 | <1 ms |
 | **Gemma 2 (Few-Shot)** | Raw Text | 3 in-context examples | 0.889 | ~450 ms |
 
 ---
